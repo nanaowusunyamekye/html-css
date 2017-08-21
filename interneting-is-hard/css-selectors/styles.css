@@ -1,4 +1,4 @@
-.synopsis {
+p:first-of-type {
     color: #7e8184;
     font-style: italic;
 }
@@ -36,6 +36,22 @@
     background-color: #5995da;
 }
 
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: #eeb75a;
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: #f5cf8e;
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: #eeb75a;
+}
+
 .page {
     width: 600px;
     margin: 0 auto;
@@ -70,5 +86,9 @@ a:visited:hover {
 
 a:visited:active {
     color: red;
+}
+
+p:last-of-type {
+    margin-bottom: 50px;
 }
 
