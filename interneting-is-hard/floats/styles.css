@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.menu {
+    height: 100px;
+    background-color: #b2d6ff;
+}
+
+.sidebar {
+    float: left;
+    height: 300px;
+    width: 200px;
+    background-color: #f09a9d;
+}
+
+.content {
+    height: 500px;
+    background-color: #f5cf8e;
+    width: 650px;
+    float: left;
+}
+
+.footer {
+    clear: both;
+    height: 200px;
+    background-color: #d6e9fe;
+}
