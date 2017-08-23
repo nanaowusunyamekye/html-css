@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+.container {
+    overflow: hidden;
+    background-color: #EAEDF0;
+}
+
 .page {
     width: 900px;
     margin: 0 auto;
-    border: 1px solid red;
-    overflow: hidden;
+    /* border: 1px solid red; */
+    
 }
 
 .menu {
@@ -34,4 +39,13 @@
     clear: both;
     height: 200px;
     background-color: #d6e9fe;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%; 
+    height: 160px;
+    /* background-color: #b2d6ff; */
+    background-color: red;
 }
